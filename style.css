@@ -1,0 +1,49 @@
+/*
+    Responsive Web Design Projects - Survey Form
+    www.freecodecamp.com
+    Author: vitsafarik.cz
+*/
+
+body {
+    background-color: gray;
+    text-align: center;
+    font-family: 'Open sans', Helvetica, sans-serif;
+    min-width: 320px;
+  }
+  
+.container {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.label, .text {
+    margin: 10 0 10 0;
+}
+
+.block {
+    margin-top: 10px;
+}
+
+#submit {
+  background-color: #808080;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+#submit:hover {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid red;
+  }
